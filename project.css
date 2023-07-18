@@ -124,7 +124,8 @@
 }
 
 .real-1 p{
-    margin-right: 250px;
+   margin: 0 60px 0 0;
+   width: 80%;
     font-family: 'barlow';
     font-weight: 400;
 }
@@ -148,16 +149,15 @@
 }
 
 .star-1 h1{
-    font-size: 40px;
+    font-size: 33px;
     font-family: arial;
     font-weight: 700;
-    margin: 20px 0;
 }
 
 .star-1 p{
-    margin-right: 60px;
     font-family: 'barlow';
     font-weight: 400;
+    margin: 10px 0;
 }
 
 /* sun */
@@ -187,7 +187,8 @@
 }
 
 .sun-1 p{
-    margin-right: 280px;
+   margin: 0 60px 0 0;
+   width: 80%;
     font-family: 'barlow';
     font-weight: 400;
 }
@@ -259,6 +260,10 @@
     font-size: 40px;
     font-family:'barlow';
     font-weight: 600;
+}
+.huddle-head .fa-message-dots{
+    color: #fff;
+    width: 40px;
 }
 .huddle-1 p{
     margin-right: 380px;
@@ -353,18 +358,18 @@
 }
 
 /* @MEDIA */
-@media (max-width: 400px){
+@media (max-width: 500px){
     .head{
-        display: block;
+        display: flex;
         padding: 20px;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
     .head img{
-        width: 150px;
+        width: 130px;
+        height: 30px;
     }
     .head button{
-        margin-left: 116px;
-        margin-bottom: 80px;
+      margin: 0;
     }
     /* heading */
     .heading{
@@ -425,7 +430,7 @@
     .real img{
         margin-top: 40px;
         margin-left: 15px;
-        width: 100%;
+        width: 80%;
     }
     .real-top img{
        display: none;
